@@ -1,0 +1,13 @@
+package com.me.designpatterns.singleton;
+
+//instance is created when the class is loaded in JVM
+public class Singleton1 {
+
+    private static final Singleton1 instance = new Singleton1();
+
+    private Singleton1() {};
+
+    public static Singleton1 getSingletonInstance() {
+        return instance;
+    }
+}
