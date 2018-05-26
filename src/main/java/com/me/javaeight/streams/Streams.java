@@ -16,6 +16,7 @@ public class Streams {
     public static void main(String[] args) {
         List<City> empList = Arrays.asList(arrayCities);
         empList.forEach(System.out::println);
+        //change here againx`
 
     }
 
